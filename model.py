@@ -41,7 +41,7 @@ validation_generator = train_datagen.flow_from_directory(
 print("Training images:", train_generator.samples)
 print("Validation images:", validation_generator.samples)
 
-
+#Comment added 
 # Train the model
 model.fit(train_generator, epochs=10, validation_data=validation_generator)
 
